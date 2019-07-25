@@ -3582,7 +3582,7 @@ GameObject:
   - component: {fileID: 1004465428}
   - component: {fileID: 1004465429}
   m_Layer: 0
-  m_Name: Warp_Reverse
+  m_Name: Warp_Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33568,7 +33568,7 @@ GameObject:
   - component: {fileID: 2061038025}
   - component: {fileID: 2061038024}
   m_Layer: 0
-  m_Name: Warp_Reverse
+  m_Name: Warp_Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
