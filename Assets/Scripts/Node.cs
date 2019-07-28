@@ -66,6 +66,8 @@ public class Node : MonoBehaviour {
 			currentNode = true;
 			if (!idleActivated) {
 				playButton.SetActive (true);
+				anim.ResetTrigger ("moveUp");
+				anim.ResetTrigger ("moveDown");
 				anim.ResetTrigger ("moveLeft");
 				anim.ResetTrigger ("moveRight");
 				anim.SetTrigger ("Idle");
@@ -235,8 +237,10 @@ public class Node : MonoBehaviour {
 							playButton.GetComponent<Animator> ().Play ("PlayButtonExit", 0, 0f);
 							Invoke ("PlayButtonDisable", 1 / 6f);
 							anim.ResetTrigger ("Idle");
+							anim.ResetTrigger ("moveDown");
 							anim.ResetTrigger ("moveLeft");
-							anim.SetTrigger ("moveRight");
+							anim.ResetTrigger ("moveRight");
+							anim.SetTrigger ("moveUp");
 							StartCoroutine (DoUp ()); 
 						}
 					}
@@ -248,8 +252,10 @@ public class Node : MonoBehaviour {
 								playButton.GetComponent<Animator> ().Play ("PlayButtonExit", 0, 0f);
 								Invoke ("PlayButtonDisable", 1 / 6f);
 								anim.ResetTrigger ("Idle");
+								anim.ResetTrigger ("moveUp");
 								anim.ResetTrigger ("moveLeft");
-								anim.SetTrigger ("moveRight");
+								anim.ResetTrigger ("moveRight");
+								anim.SetTrigger ("moveDown");
 								StartCoroutine (DoDown ()); 
 							}
 						}
@@ -261,6 +267,8 @@ public class Node : MonoBehaviour {
 									playButton.GetComponent<Animator> ().Play ("PlayButtonExit", 0, 0f);
 									Invoke ("PlayButtonDisable", 1 / 6f);
 									anim.ResetTrigger ("Idle");
+									anim.ResetTrigger ("moveDown");
+									anim.ResetTrigger ("moveUp");
 									anim.ResetTrigger ("moveRight");
 									anim.SetTrigger ("moveLeft");
 									StartCoroutine (DoLeft ()); 
@@ -274,6 +282,8 @@ public class Node : MonoBehaviour {
 										playButton.GetComponent<Animator> ().Play ("PlayButtonExit", 0, 0f);
 										Invoke ("PlayButtonDisable", 1 / 6f);
 										anim.ResetTrigger ("Idle");
+										anim.ResetTrigger ("moveDown");
+										anim.ResetTrigger ("moveUp");
 										anim.ResetTrigger ("moveLeft");
 										anim.SetTrigger ("moveRight");
 										StartCoroutine (DoRight ()); 
@@ -318,6 +328,7 @@ public class Node : MonoBehaviour {
 			player.transform.position = Vector3.MoveTowards (player.transform.position, rightDestination.transform.position, 8f * Time.deltaTime);
 			yield return null;
 		}
+		
 	}
 	void PlayButtonDisable () {
 		playButton.SetActive (false);

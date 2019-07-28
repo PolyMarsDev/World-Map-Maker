@@ -314,7 +314,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300022, guid: 7ca85f9081e9e6a44b20b0834c0a59ff, type: 3}
+  m_Sprite: {fileID: 21300180, guid: 7ca85f9081e9e6a44b20b0834c0a59ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -385,6 +385,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1186574025}
+  up: 0
+  down: 0
+  left: 1
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!4 &388605951
@@ -949,6 +953,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1411055122}
+  up: 0
+  down: 0
+  left: 0
+  right: 1
   accessible: 1
   player: {fileID: 981597630}
 --- !u!212 &712443274
@@ -1676,6 +1684,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1622748166}
+  up: 0
+  down: 1
+  left: 0
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!1 &1019236007
@@ -1719,6 +1731,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 388605949}
+  up: 0
+  down: 0
+  left: 1
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!1 &1028688909
@@ -1834,6 +1850,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 2001959114}
+  up: 0
+  down: 0
+  left: 1
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!4 &1056878231
@@ -2532,6 +2552,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1722408652}
+  up: 0
+  down: 0
+  left: 0
+  right: 1
   accessible: 1
   player: {fileID: 981597630}
 --- !u!212 &1411055124
@@ -2623,6 +2647,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1313895417}
+  up: 0
+  down: 0
+  left: 0
+  right: 1
   accessible: 1
   player: {fileID: 981597630}
 --- !u!212 &1622748168
@@ -3079,6 +3107,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1395142328}
+  up: 1
+  down: 0
+  left: 0
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!1 &1841276771
@@ -31210,6 +31242,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1225337388}
+  up: 0
+  down: 0
+  left: 0
+  right: 1
   accessible: 1
   player: {fileID: 981597630}
 --- !u!212 &2056733562
@@ -31286,6 +31322,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 2001959114}
+  up: 1
+  down: 0
+  left: 0
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!4 &2061038025

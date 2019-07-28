@@ -419,7 +419,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300022, guid: 7ca85f9081e9e6a44b20b0834c0a59ff, type: 3}
+  m_Sprite: {fileID: 21300180, guid: 7ca85f9081e9e6a44b20b0834c0a59ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -660,7 +660,7 @@ MonoBehaviour:
   Item0: {fileID: 21300232, guid: 7b25da0d134fdbc4e809910786dab5ae, type: 3}
   Item1: {fileID: 21300244, guid: 7b25da0d134fdbc4e809910786dab5ae, type: 3}
   Item2: {fileID: 21300160, guid: 7b25da0d134fdbc4e809910786dab5ae, type: 3}
-  Item3: {fileID: 21300148, guid: 7b25da0d134fdbc4e809910786dab5ae, type: 3}
+  Item3: {fileID: 21300146, guid: 7b25da0d134fdbc4e809910786dab5ae, type: 3}
   Item4: {fileID: 21300196, guid: 7b25da0d134fdbc4e809910786dab5ae, type: 3}
   Item5: {fileID: 21300040, guid: 7b25da0d134fdbc4e809910786dab5ae, type: 3}
   Item6: {fileID: 21300008, guid: 7b25da0d134fdbc4e809910786dab5ae, type: 3}
@@ -698,6 +698,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 621785568}
+  up: 0
+  down: 0
+  left: 1
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!4 &388605951
@@ -1547,7 +1551,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300148, guid: 7b25da0d134fdbc4e809910786dab5ae, type: 3}
+  m_Sprite: {fileID: 21300146, guid: 7b25da0d134fdbc4e809910786dab5ae, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2379,6 +2383,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1411055122}
+  up: 0
+  down: 0
+  left: 0
+  right: 1
   accessible: 0
   player: {fileID: 981597630}
 --- !u!212 &712443274
@@ -3613,6 +3621,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1622748166}
+  up: 0
+  down: 1
+  left: 0
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!1 &1019236007
@@ -3656,6 +3668,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 388605949}
+  up: 0
+  down: 0
+  left: 1
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!1 &1028688909
@@ -3801,6 +3817,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 2001959114}
+  up: 0
+  down: 0
+  left: 1
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!4 &1056878231
@@ -4753,6 +4773,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1722408652}
+  up: 0
+  down: 0
+  left: 0
+  right: 1
   accessible: 0
   player: {fileID: 981597630}
 --- !u!212 &1411055124
@@ -4928,6 +4952,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 106102059}
+  up: 0
+  down: 0
+  left: 0
+  right: 1
   accessible: 0
   player: {fileID: 981597630}
 --- !u!212 &1622748168
@@ -5384,6 +5412,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1395142328}
+  up: 1
+  down: 0
+  left: 0
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!1 &1841276771
@@ -33510,6 +33542,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1225337388}
+  up: 0
+  down: 0
+  left: 0
+  right: 1
   accessible: 0
   player: {fileID: 981597630}
 --- !u!212 &2056733562
@@ -33586,6 +33622,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 2001959114}
+  up: 1
+  down: 0
+  left: 0
+  right: 0
   accessible: 1
   player: {fileID: 981597630}
 --- !u!4 &2061038025
